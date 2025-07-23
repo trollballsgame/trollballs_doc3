@@ -1,0 +1,17 @@
+#body {
+    background-image: linear-gradient(-20deg, rgb(0, 51, 255), rgb(0, 153, 255), rgb(0, 204, 255), rgb(153, 255, 255));
+}
+.text {
+    font-family: sans-serif, Courier, monospace;
+    color: #000000;
+    display: inline-block;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+.text:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+tr, td, table {
+    border: 5px solid #000000;
+    border-collapse: collapse;
+}
