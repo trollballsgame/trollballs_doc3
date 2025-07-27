@@ -18,10 +18,10 @@ codetext.textContent = `enter ${code} to start`
 
 startbutton.addEventListener("click", function(settings) {
     let input = window.prompt(`enter ${code} to start`)
-    if (input === code) {
-        window.location.href = "main.html";
-    } else if (input === null) {
-        alert(`error entered literally nothing instead of ${code}`);
+    if (input === null) {
+        alert(`error entered absolutly nothing instead of ${code}`);
+    } else if (input === code) {
+        window.location.href = "main.html"
     } else {
         alert(`error entered ${input} instead of ${code}`);
     }
