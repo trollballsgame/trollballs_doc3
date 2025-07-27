@@ -20,6 +20,8 @@ startbutton.addEventListener("click", function(settings) {
     let input = window.prompt(`enter ${code} to start`)
     if (input === code) {
         window.location.href = "main.html";
+    } else if (input === null) {
+        alert(`error entered literally nothing instead of ${code}`);
     } else {
         alert(`error entered ${input} instead of ${code}`);
     }
